@@ -1,0 +1,37 @@
+/* Request a Quote page css */
+
+form label{width:40%; font-size:12px; font-family:calibri; margin-top:0.1in; font-weight:normal; color:#444;}
+form input[type="text"]{width:20%; height:auto; font-size:12px; font-family:calibri; border:thin solid #c3c3c3;}
+form > input[type="text"]:hover { border: thin solid #999;}
+form > select{width:20%; height:; font-size:12px; font-family:calibri; border:thin solid #c3c3c3;}
+form > .sel2{ padding:2px;width:23%; height:; font-size:12px; font-family:calibri; border:thin solid #c3c3c3;}
+
+@media only screen and (max-width:960px)
+{
+	.fform { width: 100%; height: auto; float: left; }
+	form { width: 100%; height: auto;}
+	form > label { width: 100%; height: auto; *float: left; }
+	form > input[type="text"] { width: 100%; height: 25px; float: left; }
+	form > select { width: 100%; height: 25px; float: left; }
+	form > select > option{ width: 100%; height: 25px; float: left; padding: 1px;}
+	form > .sel2{ padding:2px;width:100%; height:; font-size:12px; font-family:calibri; border:thin solid #c3c3c3;}
+}
+
+
+.rbtn { padding: 1% 2%; float: left; background: #ddd; border: thin solid #999; *font-size: 13px; font-family: calibri; font-weight: bold; cursor: pointer;}
+#z1{ width:100%; height:auto; background:#f2f2f2; padding:2%; border:thin solid #ccc;  margin-top:0.52in;}
+#z2,#z3{ width:100%; height:auto; background:#f2f2f2; padding:2%; border:thin solid #ccc; display:none; margin-top:0.52in;}
+
+input[type="reset"],input[type="submit"] { padding:2px 12px; border:none; background:linear-gradient(#888, #666); color:#fff; font-weight:bold; font-family:calibri;}
+
+@media only screen and (max-width:960px)
+{
+	.service { margin-top: 2in;}
+	.rbtn { width: 33%; float: left; text-align: center;}
+	#z1, #z2, #z3 { padding:40px; float: left; margin-top: 0in; }
+	textarea { width:100%; float:left;}
+}
+
+
+/* ends request a quote page css */
+

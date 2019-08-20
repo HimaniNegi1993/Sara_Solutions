@@ -1,0 +1,61 @@
+
+/* package page css */
+.ourPackage { font-weight: bold; font-size: 14pt;  color: #444; font-family: calibri;}
+.button2 { padding: 1% 2%; float: left; background: #ddd; border: thin solid #999; *font-size: 13px; font-family: calibri; font-weight: bold; cursor: pointer;}
+.package_box { margin-top: -0.11in;}
+
+.z11{ *margin-top: 0in;}
+.z21{ display: none; margin-top: 0.52in;}
+.z31{ display: none; margin-top: 0.52in;}
+@media only screen and (max-width: 760px)
+{	
+	.ourPackage { text-indent: 20px; }
+	.button2 { width: 33%; height: auto; min-height: 70px; float: left; padding-left: 2%; text-align: center; *font-size:14pt;}
+	.package_box { margin-top: 4.7em;}
+}
+/* for tables*/
+
+table { width: 100%; padding: 0 5%;}
+table, thead, tbody, tr, th { background:#eee; color: #444; font-family: calibri; *border: thin solid #ccc;}
+tr:nth-of-type(odd) { color: #444; }
+tr:nth-of-type(even) { color: #444; }
+
+.th{ padding: 4px; font-size: 13px; font-family:calibri;}
+.mtxt { background: #fff; color: #444; text-align: center; padding: 7px; font-size: 13px; font-family: calibri; font-weight: bold; }
+.ttd{ width: 30%; padding: 4px; *border: thin solid #ccc; }
+.ttd1{ width: 14%; padding: 4px 0px; *border: thin solid #ccc; }
+.ttd2{ width: 20%; padding: 4px 0px; *border: thin solid #ccc; }
+.ttd21{ width: 16%; padding: 4px 0px; *border: thin solid #ccc; }
+
+
+
+
+@media only screen and (max-width: 760px)  
+{
+	table, thead, tbody, tr, th, td {position: relative; display: block;}
+	
+	tr{ border-bottom: thin solid #999;}
+	tr:last-child{ border-bottom: none;}
+	
+	.th { *font-size: 15pt; width: 100%;}
+	.ttd { width: 100%; padding-left: 50%;  *font-size: 13px; font-family:calibri;}
+	.ttd1, .ttd2, .ttd21 { padding-left: 70%; *font-size: 15px;}
+	
+	
+	
+	td:before { position: absolute; top: 4px; left: 6px; *width: 45%; *padding-right: 10px; white-space: nowrap; }
+	td:nth-of-type(1):before { content: "SEO PACKAGE"; }
+	td:nth-of-type(2):before { content: "Basic"; } 
+	td:nth-of-type(3):before { content: "SILVER"; }
+	td:nth-of-type(4):before { content: "GOLD"; }
+	td:nth-of-type(5):before { content: "PLATINUM"; }
+	td:nth-of-type(6):before { content: "DIAMOND"; }
+	td:nth-of-type(7):before { content: ""; }
+	td:nth-of-type(8):before { content: "Website Analysis"; }
+	td:nth-of-type(9):before { content: "Competition Analysis"; }
+}
+/* end tables*/
+
+
+.package_link { color:#888; font-size:14px;}
+.package_link:hover { color:#000; text-decoration: none;}
